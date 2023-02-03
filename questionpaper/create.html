@@ -1,0 +1,110 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Create Question Paper</title>    
+    <link rel="stylesheet" type="text/css" href="s1.css">    
+</head>    
+<body>    
+    <h2>Create Question Paper</h2><br>    
+    <div class="login">    
+    <form id="login" method="post" action="create.php">  
+     <label><b>Branch
+        </b>    
+        </label>    
+         <SELECT NAME ="Branch">
+   <OPTION VALUE = "Information Technology" SELECTED>Information Technology</OPTION>
+   <OPTION VALUE = "CS">CS</OPTION>
+   <OPTION VALUE = ""EC>EC</OPTION>
+   <OPTION VALUE = "EI">EI</OPTION>
+   <OPTION VALUE = "EE">EE</OPTION>
+   <OPTION VALUE = "CE">CE</OPTION>
+    <OPTION VALUE = "BIOTECH">BIOTECH</OPTION>
+   </SELECT><BR>
+        <br><br> 
+<label><b> Semester
+        </b>    
+        </label>    
+         <SELECT NAME ="Semester">
+   <OPTION VALUE = "1" SELECTED>1</OPTION>
+   <OPTION VALUE = "2">2</OPTION>
+   <OPTION VALUE = "3">3</OPTION>
+   <OPTION VALUE = "4">4</OPTION>
+   <OPTION VALUE = "5">5</OPTION>
+   <OPTION VALUE = "6">6</OPTION>
+    <OPTION VALUE = "7">7</OPTION>
+    <OPTION VALUE = "8">8</OPTION>
+   </SELECT><BR>
+        <br><br>    
+   <label><b> Subject
+        </b>    
+        </label>    
+         <SELECT NAME ="Subject">
+   <OPTION VALUE = "DBMS" SELECTED>DBMS</OPTION>
+   <OPTION VALUE = "Java">Java</OPTION>
+   <OPTION VALUE = "C">C</OPTION>
+   <OPTION VALUE = "C++">C++</OPTION>
+   <OPTION VALUE = "HTML">HTML</OPTION>
+   <OPTION VALUE = "OS">OS</OPTION>
+    <OPTION VALUE = "DS">DS</OPTION>
+    <OPTION VALUE = "PYTHON">PYTHON</OPTION>
+   </SELECT><BR>
+        <br><br>    
+          <label><b> Difficulty     
+        </b>    
+        </label>    
+         <SELECT NAME = "Difficulty">
+   <OPTION VALUE = "Easy" SELECTED>Easy</OPTION>
+   <OPTION VALUE = "Medium">Medium</OPTION>
+   <OPTION VALUE = "Hard">Hard</OPTION>
+   </SELECT><BR>
+        <br><br>  
+    <label><b> Module   
+        </b>    
+        </label>    
+         <SELECT NAME = "Module">
+   <OPTION VALUE = "1" SELECTED>1</OPTION>
+   <OPTION VALUE = "2">2</OPTION>
+   <OPTION VALUE = "3">3</OPTION>
+   <OPTION VALUE = "4">4</OPTION>
+   <OPTION VALUE = "5">5</OPTION>
+   </SELECT><BR>
+        <br><br>   
+        <label><b> Time
+        </b>    
+        </label>    
+         <SELECT NAME = "Time Duration">
+   <OPTION VALUE = "30mins" SELECTED>30mins</OPTION>
+   <OPTION VALUE = "1 hour">1 hour</OPTION>
+   <OPTION VALUE = "2 hour">2 hour</OPTION>
+   <OPTION VALUE = "3 hour">3 hour</OPTION>
+   <OPTION VALUE = "4 hour">4 hour</OPTION>
+   </SELECT><BR>
+        <br><br> 
+<label><b>NameofQuestionPaper
+        </b>    
+        </label>  
+<br>  
+        <input type="text" name="Paper" id="Paper" placeholder=" Enter Question Paper Name">    
+        <br><br> 
+    <label><b>PaperCode
+        </b>    
+        </label>  
+<br>  
+        <input type="text" name="Code" id="Code" placeholder=" Enter Question Paper Code">    
+        <br><br> 
+     <label><b>Total Marks
+        </b>    
+        </label>  
+<br>  
+        <input type="text" name="Marks" id="Marks" placeholder=" Enter Total Marks">    
+        <br><br> 
+         
+<br>    
+       
+        <input type="submit" name="log" id="log" value="CREATE QUESTION PAPER">       
+              
+    </form>     
+</div>    
+</body>    
+</html>       
+        

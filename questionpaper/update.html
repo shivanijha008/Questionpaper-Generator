@@ -1,0 +1,71 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Update Questions</title>    
+    <link rel="stylesheet" type="text/css" href="s1.css">    
+</head>    
+<body>    
+    <h2>Update Questions</h2><br>    
+    <div class="login">    
+    <form id="login" method="post" action="update.php">    
+        <label><b>QuestionId
+        </b>    
+        </label>  
+<br>  
+        <input type="text" name="QuestionId" id="QuestionId" placeholder=" Enter Question Id">    
+        <br><br>  
+          <label><b>YourQuestion
+      </b>
+  <TEXTAREA ROW= "15" COLS= "50" NAME = "YourQuestion" placeholder= "Enter Question">
+   </TEXTAREA><br>    
+        </label>    
+        <br><br>      
+      <label><b> Semester
+        </b>    
+        </label>    
+         <SELECT NAME ="Semester">
+   <OPTION VALUE = "1" SELECTED>1</OPTION>
+   <OPTION VALUE = "2">2</OPTION>
+   <OPTION VALUE = "3">3</OPTION>
+   <OPTION VALUE = "4">4</OPTION>
+   <OPTION VALUE = "5">5</OPTION>
+   <OPTION VALUE = "6">6</OPTION>
+    <OPTION VALUE = "7">7</OPTION>
+    <OPTION VALUE = "8">8</OPTION>
+   </SELECT><BR>
+        <br><br>    
+      <label><b> Subject
+        </b>    
+        </label>    
+         <SELECT NAME ="Subject">
+   <OPTION VALUE = "DBMS" SELECTED>DBMS</OPTION>
+   <OPTION VALUE = "Java">Java</OPTION>
+   <OPTION VALUE = "C">C</OPTION>
+   <OPTION VALUE = "C++">C++</OPTION>
+   <OPTION VALUE = "HTML">HTML</OPTION>
+   <OPTION VALUE = "OS">OS</OPTION>
+    <OPTION VALUE = "DS">DS</OPTION>
+    <OPTION VALUE = "PYTHON">PYTHON</OPTION>
+   </SELECT><BR>
+        <br><br>    
+       <label><b> Branch
+        </b>    
+        </label>    
+         <SELECT NAME ="Branch">
+   <OPTION VALUE = "Information Technology" SELECTED>Information Technology</OPTION>
+   <OPTION VALUE = "CS">CS</OPTION>
+   <OPTION VALUE = ""EC>EC</OPTION>
+   <OPTION VALUE = "EI">EI</OPTION>
+   <OPTION VALUE = "EE">EE</OPTION>
+   <OPTION VALUE = "CE">CE</OPTION>
+    <OPTION VALUE = "BIOTECH">BIOTECH</OPTION>
+   </SELECT><BR>
+        <br><br>    
+     
+       
+        <input type="submit" name="log" id="log" value="UPDATE QUESTIONS">       
+              
+    </form>     
+</div>    
+</body>    
+</html>     
